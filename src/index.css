@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.active{
+    @apply text-slate-900 font-normal
+}
+.row{
+    @apply flex flex-wrap mx-4
+}
+.btn{
+    @apply px-4 py-2 rounded-lg m-2 w-full
+}
+.btn-green{
+    @apply bg-green-700 text-white hover:bg-green-600 
+}
+#root{
+    background-image: url('./assets/images/light-patten.svg');
+}
